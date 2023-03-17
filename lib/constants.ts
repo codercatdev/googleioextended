@@ -1,32 +1,16 @@
-/**
- * Copyright 2020 Vercel Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-export const SITE_URL = 'https://demo.vercel.events';
+export const SITE_URL = 'https://googleioextended.com';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
-export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
-export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
-export const SITE_NAME = 'ACME Conf';
+export const TWITTER_USER_NAME = 'gdggrandrapids';
+export const BRAND_NAME = 'GDG Grand Rapids';
+export const SITE_NAME_MULTILINE = ['GDG Grand Rapids', 'I/O Extended'];
+export const SITE_NAME = 'GDG Grand Rapids I/O Extended';
 export const META_DESCRIPTION =
-  'This is an open source demo that Next.js developers can clone, deploy, and fully customize for events. Created through collaboration of marketers, designers, and developers at Vercel.';
+  'Local developers come together for I/O Extended events to discuss the latest new technologies, and meeting other technology enthusiasts in person and remote.';
 export const SITE_DESCRIPTION =
-  'An interactive online experience by the community, free for everyone.';
-export const DATE = '01 January 2022';
-export const SHORT_DATE = 'Jan 1 - 9:00am PST';
-export const FULL_DATE = 'Jan 1st 9am Pacific Time (GMT-7)';
+  'An interactive online experience for Google Developer Group - Grand Rapids, I/O Extended';
+export const DATE = '10 May 2023';
+export const SHORT_DATE = 'May 10 - 9:00am EDT';
+export const FULL_DATE = 'May 10th 9am Eastern Time (GMT-4)';
 export const TWEET_TEXT = META_DESCRIPTION;
 export const COOKIE = 'user-id';
 
@@ -35,22 +19,13 @@ export const COOKIE = 'user-id';
 export const LEGAL_URL = process.env.NEXT_PUBLIC_PRIVACY_POLICY_URL;
 export const COPYRIGHT_HOLDER = process.env.NEXT_PUBLIC_COPYRIGHT_HOLDER;
 
-export const CODE_OF_CONDUCT =
-  'https://www.notion.so/vercel/Code-of-Conduct-Example-7ddd8d0e9c354bb597a0faed87310a78';
-export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
+export const CODE_OF_CONDUCT = 'https://gdg.community.dev/participation-terms/';
+export const REPO = 'https://github.com/codercatdev/googleioextended';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
     name: 'Live Stage',
     route: '/stage/a'
-  },
-  {
-    name: 'Vercel Stage',
-    route: '/stage/c'
-  },
-  {
-    name: '100ms Stage',
-    route: '/stage/m'
   },
   {
     name: 'Schedule',

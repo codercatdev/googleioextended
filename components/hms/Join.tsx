@@ -51,7 +51,7 @@ const ViewersJoin: React.FC<{ token: string }> = ({ token }) => {
   return (
     <div className="text-center">
       <h1>Enter your name to continue.</h1>
-      <p className="my-0 text-gray-300 text-sm">
+      <p className="my-0 text-sm text-gray-300">
         This name will be visible to other participants once you join the stage
       </p>
       <form onSubmit={e => joinRoom(e)} className="mt-12 md:space-x-4">
@@ -63,13 +63,13 @@ const ViewersJoin: React.FC<{ token: string }> = ({ token }) => {
             localStorage.setItem('name', e.target.value);
           }}
           required
-          className="p-4 w-80 text-md bg-gray-600 rounded-lg placeholder:text-gray-400 focus:outline-none focus:bg-gray-700"
+          className="p-4 bg-gray-600 rounded-lg w-80 text-md placeholder:text-gray-400 focus:outline-none focus:bg-gray-700"
           placeholder="Enter your name to join the event"
           type="text"
         />
         <button
           type="submit"
-          className="bg-brand-300 hover:bg-brand-200 px-4 py-4 rounded-lg cursor-pointer md:mt-0 mt-4 w-80 md:w-20"
+          className="px-4 py-4 mt-4 rounded-lg cursor-pointer bg-brand-300 hover:bg-brand-200 md:mt-0 w-80 md:w-20"
         >
           Join
         </button>
@@ -96,11 +96,11 @@ const MobileRoleDialog = () => {
       <Dialog.Overlay className="fixed inset-0" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }} />
       <Dialog.Content className="dialog-content bg-gray-700 md:w-96 w-[95%] rounded-lg text-center dialog-animation">
         <h3>Joining as a speaker is not supported on mobile</h3>
-        <p className="text-xs text-gray-200 mt-4">
+        <p className="mt-4 text-xs text-gray-200">
           We have setup a few profiles to make it easy for you or your team to experience each
           perspective. Join in one click or share access with anyone else.
         </p>
-        <div className="w-full flex justify-center mt-4">
+        <div className="flex justify-center w-full mt-4">
           <a href={`/stage/${stage || 'a'}?role=viewer`}>
             <Button>
               Join as a Guest Instead <ArrowRightIcon />
