@@ -5,12 +5,15 @@
 	import type { LayoutData } from './$types';
 	// export let data: LayoutData;
 
-	// Global Stylesheets
+	// BlackCatUI Global Stylesheets
 	import '@codingcatdev/blackcatui/dist/themes/theme-blackcatui.css';
 	import '@codingcatdev/blackcatui/dist/styles/all.css';
 
-	// Components & Utilities
+	// BlackCatUI Components
 	import { AppShell } from '@codingcatdev/blackcatui';
+
+	// GoogleIOExtended Components
+	import MyAppBar from '../components/MyAppBar.svelte';
 
 	// Scroll heading into view
 	function scrollHeadingIntoView(): void {
@@ -97,7 +100,7 @@
 <!-- App Shell -->
 <AppShell regionPage="overflow-y-scroll" slotPageFooter="pt-4 bg-surface-50-900-token">
 	<!-- Header -->
-	<svelte:fragment slot="bcu-app-shell-header">Title Stuff</svelte:fragment>
+	<svelte:fragment slot="bcu-app-shell-header"><MyAppBar /></svelte:fragment>
 
 	<!-- Sidebar (Left) -->
 	<!-- <svelte:fragment slot="bcu-app-shell-sidebar-left">
