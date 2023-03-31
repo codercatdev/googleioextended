@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@codingcatdev/blackcatui': ^0.0.3
+  '@codingcatdev/blackcatui': ^0.0.4
   '@skeletonlabs/skeleton': ^1.1.0
   '@steeze-ui/heroicons': ^2.2.2
   '@steeze-ui/simple-icons': ^1.4.0
@@ -26,7 +26,7 @@ specifiers:
   vite: ^4.2.0
 
 devDependencies:
-  '@codingcatdev/blackcatui': link:../blackcatui
+  '@codingcatdev/blackcatui': 0.0.4_amscrwpznrn5ofpenft7wthn6a
   '@skeletonlabs/skeleton': 1.1.0
   '@steeze-ui/heroicons': 2.2.2
   '@steeze-ui/simple-icons': 1.4.0
@@ -51,6 +51,17 @@ devDependencies:
   vite: 4.2.1
 
 packages:
+
+  /@codingcatdev/blackcatui/0.0.4_amscrwpznrn5ofpenft7wthn6a:
+    resolution: {integrity: sha512-JddfIHovMOBNd7EyYblFiQ923hE9wQKPlyCFwTYdv2ZMdayFOYqEWqk/e/AMYv0IcFQk97XKX4QKq14sa5oEKQ==}
+    peerDependencies:
+      svelte: ^3.54.0
+    dependencies:
+      '@tailwindcss/forms': 0.5.3_tailwindcss@3.3.1
+      svelte: 3.58.0
+    transitivePeerDependencies:
+      - tailwindcss
+    dev: true
 
   /@esbuild/android-arm/0.17.14:
     resolution: {integrity: sha512-0CnlwnjDU8cks0yJLXfkaU/uoLyRf9VZJs4p1PskBr2AlAHeEsFEwJEo0of/Z3g+ilw5mpyDwThlxzNEIxOE4g==}
@@ -420,6 +431,15 @@ packages:
       vitefu: 0.2.4_vite@4.2.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@tailwindcss/forms/0.5.3_tailwindcss@3.3.1:
+    resolution: {integrity: sha512-y5mb86JUoiUgBjY/o6FJSFZSEttfb3Q5gllE4xoKjAAD+vBrnIhE4dViwUuow3va8mpH4s9jyUbUbrRGoRdc2Q==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
+    dependencies:
+      mini-svg-data-uri: 1.4.4
+      tailwindcss: 3.3.1_postcss@8.4.21
     dev: true
 
   /@types/cookie/0.5.1:
@@ -1335,6 +1355,11 @@ packages:
   /min-indent/1.0.1:
     resolution: {integrity: sha512-I9jwMn07Sy/IwOj3zVkVik2JTvgpaykDZEigL6Rx6N9LbMywwUSMtxET+7lVoDLLd3O3IXwJwvuuns8UB/HeAg==}
     engines: {node: '>=4'}
+    dev: true
+
+  /mini-svg-data-uri/1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
     dev: true
 
   /minimatch/3.1.2:

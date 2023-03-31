@@ -12,7 +12,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@codingcatdev/blackcatui": "^0.0.3",
+		"@codingcatdev/blackcatui": "^0.0.4",
 		"@skeletonlabs/skeleton": "^1.1.0",
 		"@steeze-ui/heroicons": "^2.2.2",
 		"@steeze-ui/simple-icons": "^1.4.0",
