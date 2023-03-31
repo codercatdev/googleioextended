@@ -3,17 +3,17 @@
 	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';
 	import type { LayoutData } from './$types';
-	// export let data: LayoutData;
 
-	// BlackCatUI Global Stylesheets
-	import '@codingcatdev/blackcatui/dist/themes/theme-blackcatui.css';
-	import '@codingcatdev/blackcatui/dist/styles/all.css';
+	//Style
+	import '../app.postcss';
 
 	// BlackCatUI Components
 	import { AppShell } from '@codingcatdev/blackcatui';
 
 	// GoogleIOExtended Components
 	import MyAppBar from '../components/MyAppBar.svelte';
+	import MySideNav from '../components/MySideNav.svelte';
+	import MyDrawer from '../components/MyDrawer.svelte';
 
 	// Scroll heading into view
 	function scrollHeadingIntoView(): void {
@@ -97,15 +97,18 @@
 	<meta name="twitter:image" content={meta.twitter.image} />
 </svelte:head>
 
+<!-- Overlays -->
+<MyDrawer />
+
 <!-- App Shell -->
 <AppShell regionPage="overflow-y-scroll" slotPageFooter="pt-4 bg-surface-50-900-token">
 	<!-- Header -->
 	<svelte:fragment slot="bcu-app-shell-header"><MyAppBar /></svelte:fragment>
 
 	<!-- Sidebar (Left) -->
-	<!-- <svelte:fragment slot="bcu-app-shell-sidebar-left">
-		<DocsSideNav class="hidden lg:grid w-72 overflow-hidden" navLinks={data.navLinks} />
-	</svelte:fragment> -->
+	<svelte:fragment slot="bcu-app-shell-sidebar-left">
+		<MySideNav class="hidden lg:grid w-72 overflow-hidden" />
+	</svelte:fragment>
 
 	<!-- Page Content -->
 	<slot />
