@@ -2,6 +2,8 @@
 	// Core
 	import { page } from '$app/stores';
 	import { afterNavigate } from '$app/navigation';
+	import { storeCurrentUrl } from '../stores';
+
 	import type { LayoutData } from './$types';
 
 	//Style
@@ -24,6 +26,8 @@
 
 	// Lifecycle
 	afterNavigate((params: any) => {
+		// Store current page route URL
+		storeCurrentUrl.set($page.url.pathname);
 		// Scroll to top
 		const isNewPage: boolean =
 			params.from && params.to && params.from.route.id !== params.to.route.id;
@@ -101,13 +105,13 @@
 <MyDrawer />
 
 <!-- App Shell -->
-<AppShell regionPage="overflow-y-scroll" slotPageFooter="pt-4 bg-surface-50-900-token">
+<AppShell regionPage="overflow-y-scroll" slotPageFooter="pt-4 bg-surface-50-900-token" }>
 	<!-- Header -->
 	<svelte:fragment slot="bcu-app-shell-header"><MyAppBar /></svelte:fragment>
 
 	<!-- Sidebar (Left) -->
 	<svelte:fragment slot="bcu-app-shell-sidebar-left">
-		<MySideNav class="hidden lg:grid w-72 overflow-hidden" />
+		<MySideNav class="hidden overflow-hidden lg:grid w-72" />
 	</svelte:fragment>
 
 	<!-- Page Content -->
