@@ -13,9 +13,9 @@
 	import { AppShell } from '@codingcatdev/blackcatui';
 
 	// GoogleIOExtended Components
-	import MyAppBar from '../components/MyAppBar.svelte';
-	import MySideNav from '../components/MySideNav.svelte';
-	import MyDrawer from '../components/MyDrawer.svelte';
+	import MyAppBar from '../lib/components/MyAppBar.svelte';
+	import MySideNav from '../lib/components/MySideNav.svelte';
+	import MyDrawer from '../lib/components/MyDrawer.svelte';
 
 	// Scroll heading into view
 	function scrollHeadingIntoView(): void {
@@ -110,9 +110,9 @@
 	<svelte:fragment slot="bcu-app-shell-header"><MyAppBar /></svelte:fragment>
 
 	<!-- Sidebar (Left) -->
-	<svelte:fragment slot="bcu-app-shell-sidebar-left">
+	<!-- <svelte:fragment slot="bcu-app-shell-sidebar-left">
 		<MySideNav class="hidden overflow-hidden lg:grid w-72" />
-	</svelte:fragment>
+	</svelte:fragment> -->
 
 	<!-- Page Content -->
 	<slot />

@@ -1,9 +1,21 @@
-<div class="flex flex-col w-full h-full gap-2 m-2 md:m-8 md:gap-12">
-	<section><h1>Welcome to Google I/O Extended - Grand Rapids</h1></section>
+<script lang="ts">
+	import { modeCurrent } from '@codingcatdev/blackcatui';
+	import LightBanner from '$lib/assets/B-IOE23-WebBanner-2560x500.png';
+	import DarkBanner from '$lib/assets/C-IOE23-WebBanner-2560x500.png';
+</script>
+
+<div class="flex flex-col gap-2 m-2 md:m-8 md:gap-12">
+	{#if $modeCurrent}
+		<img src={LightBanner} alt="IO Extended Banner" />
+	{:else}
+		<img src={DarkBanner} alt="IO Extended Bannder" />
+	{/if}
+	<section><h1>Welcome to Google I/O Extended 2023 - Grand Rapids</h1></section>
 	<section>
 		Your ticket to Google I/O Extended - Grand Rapids Includes
 		<ul>
 			<li>Thing 1</li>
+			<li>Thing 2</li>
 		</ul>
 	</section>
 	<section>
