@@ -11,7 +11,7 @@
 
 <div class="flex flex-col">
 	<div class="pl-2 mb-4">
-		<span class="text-xl text-primary-500">{`${fromDate} - ${toDate}`}</span>
+		<span class="text-xl dark:text-primary-500">{`${fromDate} - ${toDate}`}</span>
 	</div>
 	<div class="bcu-card variant-ghost-surface">
 		<a class="!no-underline !text-token" href={`/schedule/${slug}`}>
