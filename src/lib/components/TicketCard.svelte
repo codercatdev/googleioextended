@@ -1,4 +1,4 @@
-<div class="w-full bcu-card variant-ringed-surface">
+<div class="w-full bcu-card variant-ringed-primary">
 	<header class="bcu-card-header">
 		<h2 class="text-xl lg:text-2xl xl:text-3xl">Your Ticket Includes</h2>
 	</header>

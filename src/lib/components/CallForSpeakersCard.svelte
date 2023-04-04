@@ -4,7 +4,7 @@
 	</header>
 
 	<!-- Events -->
-	<section class="p-8 md:gap-8">
+	<section class="p-8 gap-8">
 		Google I/O Extended is a global event series that brings the excitement of Google I/O to cities
 		around the world. This year, we are excited to be hosting Google I/O Extended in Grand Rapids
 		Michigan on May 10 at New Holland Brewing ( Knickerbocker ). We are looking for speakers to
