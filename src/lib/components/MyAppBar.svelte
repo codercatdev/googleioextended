@@ -33,11 +33,9 @@
 				<AjAlt />
 			</a> -->
 			<!-- Title -->
-			<a
-				class="hidden text-primary-700 dark:text-primary-500 hover:brightness-110 xl:block sm:text-xl md:text-3xl"
-				href="/"
-			>
-				Google I/O Extended - Grand Rapids
+			<a class="hidden hover:brightness-110 xl:flex xl:gap-1 sm:text-xl md:text-3xl" href="/">
+				Google <span class="text-primary-500">I</span>/<span class="text-primary-500">O</span>
+				Extended - <span class="bcu-badge variant-filled-primary">Grand Rapids</span>
 			</a>
 			<a class="block xl:hidden" href="/">
 				<div class="w-12">
