@@ -4,8 +4,6 @@
 	import { afterNavigate } from '$app/navigation';
 	import { storeCurrentUrl } from '../stores';
 
-	import type { LayoutData } from './$types';
-
 	//Style
 	import '../app.postcss';
 
@@ -14,8 +12,8 @@
 
 	// GoogleIOExtended Components
 	import MyAppBar from '../lib/components/MyAppBar.svelte';
-	import MySideNav from '../lib/components/MySideNav.svelte';
 	import MyDrawer from '../lib/components/MyDrawer.svelte';
+	import MyFooter from '$lib/components/MyFooter.svelte';
 
 	// Scroll heading into view
 	function scrollHeadingIntoView(): void {
@@ -118,5 +116,5 @@
 	<slot />
 
 	<!-- Page Footer -->
-	<svelte:fragment slot="bcu-app-shell-page-footer">Footer</svelte:fragment>
+	<svelte:fragment slot="bcu-app-shell-page-footer"><MyFooter /></svelte:fragment>
 </AppShell>
