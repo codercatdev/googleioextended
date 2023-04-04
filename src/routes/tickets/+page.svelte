@@ -28,7 +28,7 @@
             </ul>
         </section>
 		<footer class="bcu-card-footer">
-            <a class="w-full bcu-button variant-filled-primary" href="https://eventbrite.com">
+            <a class="w-full bcu-button variant-filled-primary" href="https://www.eventbrite.com/e/google-io-extended-grand-rapids-2023-tickets-605068284527">
                 Get Ticket!
             </a>
         </footer>
