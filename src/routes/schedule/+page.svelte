@@ -1,4 +1,7 @@
 <script lang="ts">
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 	import LayoutWrapper from '$lib/components/LayoutWrapper.svelte';
 	import ScheduleCard from '$lib/components/ScheduleCard.svelte';
 </script>
@@ -15,13 +18,15 @@
 
 		<!-- Events -->
 		<section class="grid grid-cols-[1fr_1fr] gap-8 px-8 my-8 overflow-y-auto md:gap-16 md:my-16">
-			<ScheduleCard title="Talk Title 1" desc="A very interesting talk title about something." />
-			<ScheduleCard title="Talk Title 2" desc="A very interesting talk title about something." />
-			<ScheduleCard title="Talk Title 3" desc="A very interesting talk title about something." />
-			<ScheduleCard title="Talk Title 4" desc="A very interesting talk title about something." />
-			<ScheduleCard title="Talk Title 5" desc="A very interesting talk title about something." />
-			<ScheduleCard title="Talk Title 6" desc="A very interesting talk title about something." />
-			<ScheduleCard title="Talk Title 7" desc="A very interesting talk title about something." />
+			{#each data.schedules as schedule}
+				<ScheduleCard
+					title={schedule.title}
+					summary={schedule.summary}
+					fromTime={schedule.fromTime}
+					toTime={schedule.toTime}
+					slug={schedule.slug}
+				/>
+			{/each}
 		</section>
 	</div>
 </LayoutWrapper>

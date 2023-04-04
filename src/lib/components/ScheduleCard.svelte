@@ -1,7 +1,8 @@
 <script>
 	export let title = 'Event';
-	export let desc = 'Svelte Talk';
-	export let slug = 'event';
+	export let summary = 'Svelte Talk';
+	export let slug = '';
+	export let authorSlug = '';
 	export let fromTime = Date.now();
 	export let toTime = Date.now() + 3600000;
 
@@ -19,7 +20,7 @@
 				<h3 class="text-xl lg:text-2xl xl:text-3xl">{title}</h3>
 			</header>
 			<section class="p-4 opacity-60">
-				<p>{desc}</p>
+				<p>{summary}</p>
 			</section>
 		</a>
 	</div>
