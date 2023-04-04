@@ -25,6 +25,8 @@
 			<a
 				class="w-full bcu-button variant-filled-primary"
 				href="https://www.eventbrite.com/e/google-io-extended-grand-rapids-2023-tickets-605068284527"
+				target="_blank"
+				rel="noopener noreferrer"
 			>
 				Get Ticket!
 			</a>
