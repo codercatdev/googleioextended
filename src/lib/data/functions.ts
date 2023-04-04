@@ -19,3 +19,7 @@ export const getSpeakers = (): typeof speakers => {
 export const getSpeaker = (slug: string) => {
     return speakers.filter(s => s.slug === slug)?.at(0);
 };
+
+export const getSpeakerSchedule = (authorSlug: string) => {
+    return events.filter(e => e.authorSlug === authorSlug);
+};

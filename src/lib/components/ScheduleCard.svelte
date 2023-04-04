@@ -14,7 +14,7 @@
 	<div class="pl-2 mb-4">
 		<span class="text-xl dark:text-primary-500">{`${fromDate} - ${toDate}`}</span>
 	</div>
-	<div class="bcu-card variant-ghost-surface">
+	<div class="bcu-card variant-ringed-primary">
 		<a class="!no-underline !text-token" href={`/schedule/${slug}`}>
 			<header class="bcu-card-header">
 				<h3 class="text-xl lg:text-2xl xl:text-3xl">{title}</h3>
