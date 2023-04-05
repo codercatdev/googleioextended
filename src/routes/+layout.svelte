@@ -41,8 +41,7 @@
 	const metaDefaults = {
 		title: 'Google I/O Extended Grand Rapids',
 		description: 'Google I/O Extended Grand Rapids',
-		image:
-			'https://media.codingcat.dev/image/upload/f_jpg/dev-codingcatdev-photo/v60h88eohd7ufghkspgo'
+		image: 'https://media.codingcat.dev/image/upload/v1680705792/gdg2023_zt6jl1.png'
 	};
 	const meta = {
 		title: metaDefaults.title,

@@ -81,10 +81,10 @@
 
 		<!-- Social -->
 		<!-- prettier-ignore -->
-		<section class="hidden sm:inline-flex sm:gap-2">
+		<!-- <section class="hidden sm:inline-flex sm:gap-2">
 			<a class="bcu-button-icon hover:variant-soft-primary" href="https://gdggr.org" target="_blank" rel="noreferrer">
 				<Icon src={GlobeAmericas} theme="solid" />
 			</a>
-		</section>
+		</section> -->
 	</svelte:fragment>
 </AppBar>
