@@ -13,8 +13,18 @@ export const events = [
         
         By the end of this workshop, you will be able to build a simple web application with authentication using Svelte Kit and Firebase. `,
 		fromTime: new Date('May 10, 2023 10:00').getTime(),
-		toTime: new Date('May 10, 2023 11:00').getTime(),
+		toTime: new Date('May 10, 2023 10:45').getTime(),
 		slug: 'svelte-kit-and-firebase',
 		authorSlug: 'alex-patterson'
+	},
+	{
+		title: 'Android Topic',
+		summary:
+			'How to Develop Quickly with Chat GPT',
+		body: `More to come...`,
+		fromTime: new Date('May 10, 2023 11:00').getTime(),
+		toTime: new Date('May 10, 2023 11:30').getTime(),
+		slug: 'android-topic',
+		authorSlug: 'nandeesh-tankasala'
 	}
 ];
