@@ -17,7 +17,9 @@
 		</header>
 
 		<!-- Events -->
-		<section class="grid grid-cols-[1fr_1fr] gap-8 px-8 my-8 overflow-y-auto md:gap-16 md:my-16">
+		<section
+			class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 px-8 my-8 overflow-y-auto md:gap-16 md:my-16"
+		>
 			{#each data.schedules as schedule}
 				<ScheduleCard
 					title={schedule.title}

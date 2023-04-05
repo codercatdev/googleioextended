@@ -29,18 +29,20 @@
 	</div>
 
 	{#each speakerSchedule as schedule}
-		<div class="bcu-card max-w-5xl p-8 variant-ringed-primary">
-			<section class="flex flex-col gap-8">
-				<div class="pl-2 mb-4">
-					<span class="text-xl dark:text-primary-500"
-						>{`${new Date(schedule.fromTime).toLocaleTimeString()} - ${new Date(
-							schedule.toTime
-						).toLocaleTimeString()}`}</span
-					>
-				</div>
-				<h1 class="font-bold">{schedule.title}</h1>
-				<div class="text-lg xl:text-xl opacity-80">{schedule.summary}</div>
-			</section>
-		</div>
+		<a href={`/schedule/${schedule?.slug}`} class="!no-underline !text-token">
+			<div class="bcu-card max-w-5xl p-8 variant-ringed-primary">
+				<section class="flex flex-col gap-8">
+					<div class="pl-2 mb-4">
+						<span class="text-xl dark:text-primary-500"
+							>{`${new Date(schedule.fromTime).toLocaleTimeString()} - ${new Date(
+								schedule.toTime
+							).toLocaleTimeString()}`}</span
+						>
+					</div>
+					<h1 class="font-bold">{schedule.title}</h1>
+					<div class="text-lg xl:text-xl opacity-80">{schedule.summary}</div>
+				</section>
+			</div>
+		</a>
 	{/each}
 </LayoutWrapper>
