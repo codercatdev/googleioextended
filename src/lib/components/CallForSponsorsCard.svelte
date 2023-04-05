@@ -52,6 +52,7 @@
 					<th>Diamond* $5,000</th>
 					<th>Gold $2,500</th>
 					<th>Silver $1,000</th>
+					<th>Bronze $500</th>
 				</thead>
 				<tbody>
 					<tr>
@@ -80,6 +81,18 @@
 					</tr>
 					<tr>
 						<td>
+							Permits signage and other branding to placed in the sponsored area. 
+						</td>
+						<td>
+							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
+						</td>
+						<td>
+							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
+						</td>
+						<td />
+					</tr>
+					<tr>
+						<td>
 							Option to have an attendee amenity (eg. coffee, snacks, lunch) sponsored in your name.
 						</td>
 						<td>
@@ -91,6 +104,18 @@
 						<td />
 					</tr>
 					<tr>
+						<td>
+							Table and two chairs in Expo area. 
+						</td>
+						<td>
+							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
+						</td>
+						<td>
+							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
+						</td>
+						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-token" /> </td>
+					</tr>
+					<tr>
 						<td> Logo on GDG GR meetup site, website and promotional material. </td>
 						<td>
 							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
@@ -99,6 +124,7 @@
 							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
 						</td>
 						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-token" /> </td>
+						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-amber-800" /> </td>
 					</tr>
 					<tr>
 						<td> Mentions in all forms of digital marketing/social media. </td>
@@ -109,6 +135,7 @@
 							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
 						</td>
 						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-token" /> </td>
+						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-amber-800" /> </td>
 					</tr>
 					<tr>
 						<td>
@@ -122,6 +149,7 @@
 							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
 						</td>
 						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 " /> </td>
+						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-amber-800" /> </td>
 					</tr>
 				</tbody>
 			</table>
