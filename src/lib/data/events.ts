@@ -16,15 +16,5 @@ export const events = [
 		toTime: new Date('May 10, 2023 10:45').getTime(),
 		slug: 'svelte-kit-and-firebase',
 		authorSlug: 'alex-patterson'
-	},
-	{
-		title: 'Android Topic',
-		summary:
-			'How to Develop Quickly with Chat GPT',
-		body: `More to come...`,
-		fromTime: new Date('May 10, 2023 11:00').getTime(),
-		toTime: new Date('May 10, 2023 11:30').getTime(),
-		slug: 'android-topic',
-		authorSlug: 'nandeesh-tankasala'
 	}
 ];
