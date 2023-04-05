@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Icon } from '@steeze-ui/svelte-icon';
 	import { Github, Twitter } from '@steeze-ui/simple-icons';
+	import { DocumentCheck } from '@steeze-ui/heroicons';
 	import LayoutWrapper from '$lib/components/LayoutWrapper.svelte';
 </script>
 
@@ -13,6 +14,17 @@
 				>Made with 💜 by CodingCat.dev</a
 			>
 		</p>
+		<div class="flex gap-2">
+			<a
+				class="bcu-button variant-soft"
+				href="https://developers.google.com/community-guidelines"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<Icon src={DocumentCheck} class="w-8" />
+				<span class="hidden md:inline-block ml-2">Community Guidelines</span>
+			</a>
+		</div>
 		<div class="flex gap-2">
 			<a
 				class="bcu-button variant-soft"
