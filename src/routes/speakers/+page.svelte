@@ -5,13 +5,17 @@
 	import LayoutWrapper from '$lib/components/LayoutWrapper.svelte';
 	import CallForSpeakersCard from '$lib/components/CallForSpeakersCard.svelte';
 	import { Avatar } from '@codingcatdev/blackcatui';
+	import KnickerbockerSpeaker from '$lib/assets/knickerbockerspeaker.jpeg';
 </script>
 
 <LayoutWrapper>
 	<div class="flex gap-2 md:gap-8">
 		<h1>Speakers</h1>
 	</div>
-	<CallForSpeakersCard />
+	<div class="grid grid-cols-6 gap-4 items-stretch">
+		<div class="col-span-3"><CallForSpeakersCard/></div>
+		<img class="col-span-3" src={KnickerbockerSpeaker} alt="Knickerbocker Speaker Google I/O Extended 2018" />
+	</div>
 
 	{#each data.speakers as speaker}
 		<a class="!text-secondary-500 !no-underline" href={`/speakers/${speaker?.slug}`}>
