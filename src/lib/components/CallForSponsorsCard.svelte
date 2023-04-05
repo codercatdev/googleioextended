@@ -125,6 +125,7 @@
 					</tr>
 				</tbody>
 			</table>
+			<small>* One sponsorship available on a first come first serve basis</small>
 		</div>
 
 		<h3>Have Something Else in Mind?</h3>
