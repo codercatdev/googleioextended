@@ -156,6 +156,17 @@
 			<small>* One sponsorship available on a first come first serve basis</small>
 		</div>
 
+		<div> 
+			<a
+			class="w-full bcu-button variant-filled-tertiary"
+			href="https://forms.gle/aHu6MUUngHvy2qcPA"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Become a Sponsor Today
+		</a>
+		</div>
+
 		<h3>Have Something Else in Mind?</h3>
 		<div>
 			<span class="font-bold">Propose An Idea</span> If you have an idea of how you’d like to participate
