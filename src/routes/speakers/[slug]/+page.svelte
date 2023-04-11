@@ -21,9 +21,12 @@
 					<svelte:fragment slot="bcu-avatar-message">{speaker?.name.at(0)}</svelte:fragment>
 				</Avatar>
 			{/if}
-			<div class="flex flex-col text-2xl justify-center">
-				<h1>{speaker?.name}</h1>
-				<div>{speaker?.title}</div>
+			<div class="flex flex-col text-2xl justify-center gap-2 md:gap-8">
+				<div>
+					<h1>{speaker?.name}</h1>
+					<div>{speaker?.title}</div>
+				</div>
+				<div class="max-w-md">{speaker?.bio}</div>
 			</div>
 		</div>
 	</div>
