@@ -48,8 +48,8 @@
 			<CallForSpeakersCard />
 			<Speakers speakers={data.speakers} />
 			<div class="flex flex-col gap-2 md:gap-8 items-center justify-center">
-				<button class="bcu-button variant-filled-primary">{`See Full Schedule ->`}</button>
-				<button class="bcu-button variant-filled-tertiary">{`Become a Sponsor ->`}</button>
+				<a href="/schedule" class="bcu-button variant-filled-primary">{`See Full Schedule ->`}</a>
+				<a href="/sponsors" class="bcu-button variant-filled-tertiary">{`Become a Sponsor ->`}</a>
 			</div>
 		</section>
 	</div>
