@@ -48,7 +48,7 @@
 		<div class="bcu-table-container">
 			<table class="bcu-table">
 				<thead>
-					<th>Sponsorship Opportunities</th>
+					<th class="text-left">Sponsorship Opportunities</th>
 					<th>Diamond* $5,000</th>
 					<th>Gold $2,500</th>
 					<th>Silver $1,000</th>
