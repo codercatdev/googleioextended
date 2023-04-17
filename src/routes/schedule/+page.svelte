@@ -9,13 +9,15 @@
 <LayoutWrapper>
 	<div class="flex m-2 md:m-8 justify-center">
 		<div class="flex flex-col gap-2 md:gap-12 max-w-6xl">
-			<div class="flex gap-2 md:gap-8">
+			<div class="flex flex-col md:flex-row gap-2 md:gap-8">
 				<h1>Schedule for Google I/O Extended - Grand Rapids</h1>
 				<p class="bcu-badge variant-filled-primary">May 10th, 2023</p>
 			</div>
-			<div class="bcu-alert variant-filled-secondary text-lg">
-				⚠ This agenda is not final! All times, events, and speakers may (and most likely will)
-				change. ⚠
+			<div class="bcu-alert variant-filled-secondary flex justify-center">
+				<div class="text-xl text-center">
+					⚠ This agenda is not final! All times, events, and speakers may (and most likely will)
+					change. ⚠
+				</div>
 			</div>
 			<div class="w-full bcu-card">
 				<header class="bcu-card-header">

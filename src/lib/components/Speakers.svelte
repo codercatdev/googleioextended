@@ -6,7 +6,7 @@
 <div class="flex flex-col gap-2 md:gap-8">
 	{#each speakers as speaker}
 		<a class="!text-secondary-500 !no-underline" href={`/speakers/${speaker?.slug}`}>
-			<div class="flex flex-col gap-8 bcu-card variant-ringed-secondary p-8">
+			<div class="flex flex-col gap-8 bcu-card variant-ringed-secondary p-8 bg-black">
 				<div class="flex gap-8">
 					{#if speaker?.pic}
 						<Avatar src={speaker?.pic} alt={`Photo of ${speaker.name}`} />

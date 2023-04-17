@@ -3,7 +3,7 @@
 	import { CheckCircle } from '@steeze-ui/heroicons';
 </script>
 
-<div class="w-full bcu-card variant-ringed-tertiary">
+<div class="w-full bcu-card variant-ringed-tertiary xl:max-w-6xl">
 	<header class="bcu-card-header">
 		<h2 class="text-xl lg:text-2xl xl:text-3xl">Sponsorship Information 2023</h2>
 	</header>
@@ -80,9 +80,7 @@
 						<td />
 					</tr>
 					<tr>
-						<td>
-							Permits signage and other branding to placed in the sponsored area. 
-						</td>
+						<td> Permits signage and other branding to placed in the sponsored area. </td>
 						<td>
 							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
 						</td>
@@ -104,9 +102,7 @@
 						<td />
 					</tr>
 					<tr>
-						<td>
-							Table and two chairs in Expo area. 
-						</td>
+						<td> Table and two chairs in Expo area. </td>
 						<td>
 							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
 						</td>
@@ -156,15 +152,15 @@
 			<small>* One sponsorship available on a first come first serve basis</small>
 		</div>
 
-		<div> 
+		<div>
 			<a
-			class="w-full bcu-button variant-filled-tertiary"
-			href="https://forms.gle/aHu6MUUngHvy2qcPA"
-			target="_blank"
-			rel="noopener noreferrer"
-		>
-			Become a Sponsor Today
-		</a>
+				class="w-full bcu-button variant-filled-tertiary"
+				href="https://forms.gle/aHu6MUUngHvy2qcPA"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				Become a Sponsor Today
+			</a>
 		</div>
 
 		<h3>Have Something Else in Mind?</h3>
