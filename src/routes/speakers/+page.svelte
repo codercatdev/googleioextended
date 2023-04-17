@@ -9,9 +9,7 @@
 </script>
 
 <LayoutWrapper>
-	<div class="flex gap-2 md:gap-8">
-		<h1>Speakers</h1>
-	</div>
+	<h1>Speakers</h1>
 	<div class="flex flex-col xl:flex-row gap-4">
 		<div class="xl:max-w-3xl">
 			<CallForSpeakersCard />
