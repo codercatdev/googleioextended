@@ -3,7 +3,7 @@
 	import { CheckCircle } from '@steeze-ui/heroicons';
 </script>
 
-<div class="w-full bcu-card variant-ringed-tertiary xl:max-w-6xl">
+<div class="max-w-full bcu-card variant-ringed-tertiary">
 	<header class="bcu-card-header">
 		<h2 class="text-xl lg:text-2xl xl:text-3xl">Sponsorship Information 2023</h2>
 	</header>
