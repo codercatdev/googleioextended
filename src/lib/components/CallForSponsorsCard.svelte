@@ -1,16 +1,10 @@
 <script lang="ts">
-	import { Icon } from '@steeze-ui/svelte-icon';
-	import { CheckCircle } from '@steeze-ui/heroicons';
+	import SponsorIncentiveTable from './SponsorIncentiveTable.svelte';
 </script>
 
-<div class="max-w-full bcu-card variant-ringed-tertiary">
-	<header class="bcu-card-header">
-		<h2 class="text-xl lg:text-2xl xl:text-3xl">Sponsorship Information 2023</h2>
-	</header>
-
-	<!-- Events -->
+<!-- Events -->
+<div class="xl:max-w-6xl flex justify-center items-center">
 	<section class="flex flex-col p-6 gap-8">
-		<h3>About Google Developers Group Grand Rapids</h3>
 		<p class="md:!text-2xl">
 			Google Developer Groups (GDGs) are for developers who are interested in Google's development
 			technology; everything from Android, App Engine, and Google Chrome platforms, to product APIs
@@ -45,112 +39,8 @@
 		</div>
 
 		<h3>Google I/O Extended 2023</h3>
-		<div class="bcu-table-container">
-			<table class="bcu-table">
-				<thead>
-					<th class="text-left">Sponsorship Opportunities</th>
-					<th>Diamond* $5,000</th>
-					<th>Gold $2,500</th>
-					<th>Silver $1,000</th>
-					<th>Bronze $500</th>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							You are the GDG GR cornerstone partner. We will work with you throughout the 2023
-							year. After party sponsorship in your name.
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td />
-						<td />
-					</tr>
-					<tr>
-						<td>
-							Dedicated stage time at Google I/O Extended. You will be incorporated into the keynote
-							sessions.
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
-						</td>
-						<td />
-					</tr>
-					<tr>
-						<td> Permits signage and other branding to placed in the sponsored area. </td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
-						</td>
-						<td />
-					</tr>
-					<tr>
-						<td>
-							Option to have an attendee amenity (eg. coffee, snacks, lunch) sponsored in your name.
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
-						</td>
-						<td />
-					</tr>
-					<tr>
-						<td> Table and two chairs in Expo area. </td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
-						</td>
-						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-token" /> </td>
-					</tr>
-					<tr>
-						<td> Logo on GDG GR meetup site, website and promotional material. </td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
-						</td>
-						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-token" /> </td>
-						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-amber-800" /> </td>
-					</tr>
-					<tr>
-						<td> Mentions in all forms of digital marketing/social media. </td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
-						</td>
-						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-token" /> </td>
-						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-amber-800" /> </td>
-					</tr>
-					<tr>
-						<td>
-							Option to sponsor a giveaway at the event. Stage time to raffle off any cool gifts you
-							bring.
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-primary-500" />
-						</td>
-						<td>
-							<Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-secondary-500" />
-						</td>
-						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 " /> </td>
-						<td> <Icon src={CheckCircle} theme="solid" class="w-8 md:w-12 text-amber-800" /> </td>
-					</tr>
-				</tbody>
-			</table>
-			<small>* One sponsorship available on a first come first serve basis</small>
-		</div>
+		<div />
+		<SponsorIncentiveTable />
 
 		<div>
 			<a
