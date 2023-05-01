@@ -8,15 +8,15 @@ export const speakers = [
 	// 	bio:
 	// 		'Alex is the founder of CodingCatDev, where they create “Purrfect Web Tutorials” to teach the world how to turn their development dreams into reality. Alex is a professional full stack developer, and he is passionate about mentoring new developers and helping the community that has allowed him to live his development dreams. Alex firmly believes that anyone can learn to be a developer. The CodingCatDev team is here to help!'
 	// },
-	{
-		slug: 'abu-anwar-md-abdullah',
-		name: 'Abu Anwar MD Abdullah',
-		title: 'Google Developer Expert on Flutter & Dart',
-		pic:
-			'https://sessionize.com/image/e4f2-200o200o2-HnAkYjNUs3TNJitbcpmvHX.JPG',
-		bio:
-			'He is a Google Developer Expert in Dart & Flutter, and the second most followed YouTuber in the Flutter space globally!🎉 Safe to say that the content he shared on *The Flutter Way* has influenced hundreds of young developers along the way.'
-	},
+	// {
+	// 	slug: 'abu-anwar-md-abdullah',
+	// 	name: 'Abu Anwar MD Abdullah',
+	// 	title: 'Google Developer Expert on Flutter & Dart',
+	// 	pic:
+	// 		'https://sessionize.com/image/e4f2-200o200o2-HnAkYjNUs3TNJitbcpmvHX.JPG',
+	// 	bio:
+	// 		'He is a Google Developer Expert in Dart & Flutter, and the second most followed YouTuber in the Flutter space globally!🎉 Safe to say that the content he shared on *The Flutter Way* has influenced hundreds of young developers along the way.'
+	// },
 	{
 		slug: 'brittney-postma',
 		name: 'Brittney Postma',

@@ -30,15 +30,15 @@ export const events = [
 		slug: 'scrum-is-not-a-silver-bullet',
 		authorSlug: 'carlus-henry'
 	},
-	{
-		title: 'Mastering Pixel Perfect Flutter UI Development',
-		summary: 'Beautiful experiences and pixel-perfect UI don’t happen by themselves, but that doesn’t mean they have to be difficult!',
-		body: `Beautiful experiences and pixel-perfect UI don’t happen by themselves, but that doesn’t mean they have to be difficult! In many of the videos on my TheFlutterWay YouTube channel, I have experienced how people can create perfect UIs just like their designers have wanted. By bringing this experience, in this talk I will explain how experts apply simple, straightforward, incremental techniques to build pixel-perfect UI on flutter and turn it into something memorable.`,
-		fromTime: new Date('May 10, 2023 11:00').getTime(),
-		toTime: new Date('May 10, 2023 11:45').getTime(),
-		slug: 'mastering-pixel-perfect-flutter-ui-development',
-		authorSlug: 'abu-anwar-md-abdullah'
-	},
+	// {
+	// 	title: 'Mastering Pixel Perfect Flutter UI Development',
+	// 	summary: 'Beautiful experiences and pixel-perfect UI don’t happen by themselves, but that doesn’t mean they have to be difficult!',
+	// 	body: `Beautiful experiences and pixel-perfect UI don’t happen by themselves, but that doesn’t mean they have to be difficult! In many of the videos on my TheFlutterWay YouTube channel, I have experienced how people can create perfect UIs just like their designers have wanted. By bringing this experience, in this talk I will explain how experts apply simple, straightforward, incremental techniques to build pixel-perfect UI on flutter and turn it into something memorable.`,
+	// 	fromTime: new Date('May 10, 2023 11:00').getTime(),
+	// 	toTime: new Date('May 10, 2023 11:45').getTime(),
+	// 	slug: 'mastering-pixel-perfect-flutter-ui-development',
+	// 	authorSlug: 'abu-anwar-md-abdullah'
+	// },
 	{
 		title: 'Lightning Fast Webapps on the Serverless Cloud',
 		summary: 'Building high performance webapps is easier than ever with the serverless cloud. We’ll discuss how you can rapidly, efficiently, and cheaply deploy Server Side Rendered (SSR) apps on Google Cloud Run and Firebase.',
