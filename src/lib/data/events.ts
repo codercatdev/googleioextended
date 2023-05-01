@@ -68,41 +68,27 @@ export const events = [
 		authorSlug: 'sundar-pichai'
 	},
 	{
-		title: 'A Monorepo Workflow for your Design System',
-		summary: 'In this talk, we will explore how to implement a monorepo workflow for your design system using PNPM workspaces, NX, and SvelteKit.',
-		body: `In this talk, we will explore how to implement a monorepo workflow for your design system using PNPM workspaces, NX, and SvelteKit. By consolidating all your packages and sites into a single codebase, you can streamline your development, packaging, and publishing process.
+		title: 'Design Systems: Baking Consistency into your Workflow',
+		summary: 'This talk is about how to create and implement a design system, using the analogy of baking a cake. The speaker covers the key components of a design system (ingredients), how to apply it consistently in practice (baking), how to test and evaluate it (tasting), and how to publish and package it to consumers (selling). Throughout the talk, the importance of consistency and collaboration is emphasized, and practical tips are provided for creating an effective and impactful design system.',
+		body: `In this talk, you will learn about design systems and how to improve your workflow with a cake analogy.
 
-		We will start by introducing the concept of monorepos and their benefits, before diving into the specific tools and frameworks that make it possible. We will explore PNPM workspaces, a lightweight package manager that allows you to manage all your dependencies within a single repository.
+		In the recipe section, the speaker introduces the idea of a design system as a recipe for creating consistent and cohesive designs. They explain how a design system provides a standardized set of guidelines and components that can be used to create a wide range of designs with a consistent look and feel.
+
+		In the ingredients section, the speaker dives deeper into the key pieces of the design system. They explain how these pieces and clear and concise documentation plays a crucial role in creating a cohesive and effective design system.
 		
-		Next, we will discuss NX, a powerful tool for building monorepo-based projects. NX provides a suite of tools for managing your monorepo, including code generators, testing tools, and much more. We will explore how to use NX to set up your monorepo and manage your design system components.
+		In the baking section, the speaker talks about the importance of actually putting the design system into practice. They discuss how to use a monorepo to organize the pieces of the design system, ensuring an efficient workflow that helps with updating, collaborating, and contributing to the system.
 		
-		Finally, we will discuss SvelteKit, a framework for building web applications that is optimized for monorepo workflows. We will explore how to use SvelteKit to build out your design system components and how it can easily package up your components for publishing to NPM.
+		In the tasting section, the speaker emphasizes the importance of testing and evaluating the design system to ensure that it's meeting the needs of both users and stakeholders. They discuss how to gather feedback and insights from users, as well as how to measure the effectiveness of the design system through metrics such as conversion rates and user engagement.
 		
-		By the end of this talk, you will have a clear understanding of how to implement a monorepo workflow for your design system using PNPM workspaces, NX, and SvelteKit. You will be able to streamline your development process, improve code consistency, and make it easier to manage your design system components.
+		In the selling section, the speaker discusses how to package and publish the design system for consumption. They also talk about how to communicate the value of the design system to stakeholders and decision-makers. Showcase the benefits of the design system and provide tips for securing buy-in and support from key stakeholders.
 		
+		Overall, this talk provides a comprehensive overview of how to create and implement a design system, from the initial recipe and ingredient selection to the final stages of testing and selling the system to stakeholders. The speaker emphasizes the importance of consistency and collaboration throughout the process, and provides practical tips and insights for creating an effective and impactful design system.
+		
+		By the end of this talk, you will have a clear understanding of how to implement a design system and you will be able to streamline your development process, improve code consistency, and make it easier to manage.
 		`,
 		fromTime: new Date('May 10, 2023 14:30').getTime(),
 		toTime: new Date('May 10, 2023 15:15').getTime(),
-		slug: 'a-monorepo-workflow-for-your-design-system',
-		authorSlug: 'brittney-postma'
-	},
-	{
-		title: 'A Monorepo Workflow for your Design System',
-		summary: 'In this talk, we will explore how to implement a monorepo workflow for your design system using PNPM workspaces, NX, and SvelteKit.',
-		body: `In this talk, we will explore how to implement a monorepo workflow for your design system using PNPM workspaces, NX, and SvelteKit. By consolidating all your packages and sites into a single codebase, you can streamline your development, packaging, and publishing process.
-
-		We will start by introducing the concept of monorepos and their benefits, before diving into the specific tools and frameworks that make it possible. We will explore PNPM workspaces, a lightweight package manager that allows you to manage all your dependencies within a single repository.
-		
-		Next, we will discuss NX, a powerful tool for building monorepo-based projects. NX provides a suite of tools for managing your monorepo, including code generators, testing tools, and much more. We will explore how to use NX to set up your monorepo and manage your design system components.
-		
-		Finally, we will discuss SvelteKit, a framework for building web applications that is optimized for monorepo workflows. We will explore how to use SvelteKit to build out your design system components and how it can easily package up your components for publishing to NPM.
-		
-		By the end of this talk, you will have a clear understanding of how to implement a monorepo workflow for your design system using PNPM workspaces, NX, and SvelteKit. You will be able to streamline your development process, improve code consistency, and make it easier to manage your design system components.
-		
-		`,
-		fromTime: new Date('May 10, 2023 14:30').getTime(),
-		toTime: new Date('May 10, 2023 15:15').getTime(),
-		slug: 'a-monorepo-workflow-for-your-design-system',
+		slug: 'design-systems-baking-consistency-into-your-workflow',
 		authorSlug: 'brittney-postma'
 	},
 	{
