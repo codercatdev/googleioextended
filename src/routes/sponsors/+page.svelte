@@ -4,8 +4,8 @@
 </script>
 
 <LayoutWrapper>
-	<div class="flex gap-2 md:gap-8">
+	<div class="xl:max-w-6xl flex flex-col gap-8 justify-center items-center">
 		<h1>Sponsorships</h1>
+		<CallForSponsorsCard />
 	</div>
-	<CallForSponsorsCard />
 </LayoutWrapper>

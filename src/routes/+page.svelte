@@ -12,14 +12,14 @@
 	import Speakers from '$lib/components/Speakers.svelte';
 </script>
 
-<div class="flex m-2 md:m-8 justify-center">
+<div class="flex m-2 md:m-8 justify-center p-4">
 	<div class="flex flex-col gap-2 md:gap-12 max-w-6xl">
 		{#if $modeCurrent}
 			<img src={LightBanner} alt="IO Extended Banner" />
 		{:else}
 			<img src={DarkBanner} alt="IO Extended Bannder" />
 		{/if}
-		<section class="flex flex-col gap-2 md:gap-4">
+		<section class="flex flex-col gap-2 md:gap-4 px-4">
 			<h1>Welcome to Google I/O Extended 2023 - Grand Rapids</h1>
 			<span class="font-bold"> Join us for Google I/O Extended 2023 in Grand Rapids! </span>
 			Google I/O Extended is a series of community-led tech meetups that bring the knowledge and excitement
