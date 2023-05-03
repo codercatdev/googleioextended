@@ -30,6 +30,9 @@
 					fromTime={schedule.fromTime}
 					toTime={schedule.toTime}
 					slug={schedule.slug}
+					stage={schedule?.stage}
+					remote={schedule?.remote}
+					speaker={schedule?.speaker}
 				/>
 			{/each}
 		</section>

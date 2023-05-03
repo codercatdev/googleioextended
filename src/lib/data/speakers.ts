@@ -1,13 +1,22 @@
 export const speakers = [
-	// {
-	// 	slug: 'alex-patterson',
-	// 	name: 'Alex Patterson',
-	// 	title: 'Developer Advocate',
-	// 	pic:
-	// 		'https://media.codingcat.dev/image/upload/main-codingcatdev-photo/headshots/alex_headshot_1.jpg',
-	// 	bio:
-	// 		'Alex is the founder of CodingCatDev, where they create “Purrfect Web Tutorials” to teach the world how to turn their development dreams into reality. Alex is a professional full stack developer, and he is passionate about mentoring new developers and helping the community that has allowed him to live his development dreams. Alex firmly believes that anyone can learn to be a developer. The CodingCatDev team is here to help!'
-	// },
+	{
+		slug: 'alex-patterson',
+		name: 'Alex Patterson',
+		title: 'Developer Advocate',
+		pic:
+			'https://media.codingcat.dev/image/upload/main-codingcatdev-photo/headshots/alex_headshot_1.jpg',
+		bio:
+			'Alex is the founder of CodingCatDev, where they create “Purrfect Web Tutorials” to teach the world how to turn their development dreams into reality. Alex is a professional full stack developer, and he is passionate about mentoring new developers and helping the community that has allowed him to live his development dreams. Alex firmly believes that anyone can learn to be a developer. The CodingCatDev team is here to help!'
+	},
+	{
+		slug: 'kyle-wolff',
+		name: 'Kyle Wolff',
+		title: 'Developer Advocate',
+		pic:
+			'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_250,q_auto:good,w_250/v1/gcs/platform-data-goog/avatars/kyle_wolff_FLtSvkw.jpeg',
+		bio:
+			'Kyle rocks Android at Weight Watchers.'
+	},
 	// {
 	// 	slug: 'abu-anwar-md-abdullah',
 	// 	name: 'Abu Anwar MD Abdullah',

@@ -18,6 +18,30 @@ export const events = [
 	// 	authorSlug: 'alex-patterson'
 	// },
 	{
+		stage: 'main',
+		remote: false,
+		title: 'Welcome / Mingle',
+		summary: 'Say hello',
+		body: `Grab light breakfast, and say hello to friends.`,
+		fromTime: new Date('May 10, 2023 10:00').getTime(),
+		toTime: new Date('May 10, 2023 10:30').getTime(),
+		slug: 'welcome',
+		authorSlug: 'alex-patterson'
+	},
+	{
+		stage: 'main',
+		remote: false,
+		title: 'Ice Breaker / Game',
+		summary: 'Quick Game',
+		body: `Quick game to get us started and energy moving.`,
+		fromTime: new Date('May 10, 2023 10:30').getTime(),
+		toTime: new Date('May 10, 2023 11:00').getTime(),
+		slug: 'welcome',
+		authorSlug: 'kyle-wolff'
+	},
+	{
+		stage: 'main',
+		remote: false,
 		title: 'Scrum is not a Silver Bullet',
 		summary:
 			'Taking an objective look at Scrum.',
@@ -25,8 +49,8 @@ export const events = [
 
 		I now feel obligated to share what lessons I have learned through challenging these assumptions and how we can embrace the Agile Principal of Continuous Improvement in order to lead us and our organizations into the next phase of Software Development Methodology => Continuous Delivery
 		`,
-		fromTime: new Date('May 10, 2023 10:00').getTime(),
-		toTime: new Date('May 10, 2023 10:45').getTime(),
+		fromTime: new Date('May 10, 2023 11:00').getTime(),
+		toTime: new Date('May 10, 2023 11:45').getTime(),
 		slug: 'scrum-is-not-a-silver-bullet',
 		authorSlug: 'carlus-henry'
 	},
@@ -40,6 +64,8 @@ export const events = [
 	// 	authorSlug: 'abu-anwar-md-abdullah'
 	// },
 	{
+		stage: 'main',
+		remote: false,
 		title: 'Lightning Fast Webapps on the Serverless Cloud',
 		summary: 'Building high performance webapps is easier than ever with the serverless cloud. We’ll discuss how you can rapidly, efficiently, and cheaply deploy Server Side Rendered (SSR) apps on Google Cloud Run and Firebase.',
 		body: `Building high performance webapps is easier than ever with the serverless cloud. We’ll discuss how you can rapidly, efficiently, and cheaply deploy Server Side Rendered (SSR) apps on Google Cloud Run and Firebase. We’ll work through building a modern site with live examples and cover the pros and cons of this approach, showing that serverless backends are an ideal match for webapp frontends.
@@ -50,24 +76,19 @@ export const events = [
 		authorSlug: 'joe-lust'
 	},
 	{
-		title: 'Keynote',
+		stage: 'main',
+		remote: true,
+		title: 'Lunch / Developer Keynote',
 		summary: `Remote Keynote from Google`,
 		body: `Tune in to find out how we're furthering our mission to organize the world's information and make it universally accessible and useful.`,
 		fromTime: new Date('May 10, 2023 13:00').getTime(),
-		toTime: new Date('May 10, 2023 14:00').getTime(),
+		toTime: new Date('May 10, 2023 14:30').getTime(),
 		slug: 'keynote',
 		authorSlug: 'sundar-pichai'
 	},
 	{
-		title: 'Lunch / Developer Keynote',
-		summary: `Food from New Holland Knickerbocker`,
-		body: `Continue watching Keynote while enjoying each others company.`,
-		fromTime: new Date('May 10, 2023 14:00').getTime(),
-		toTime: new Date('May 10, 2023 14:30').getTime(),
-		slug: 'lunch',
-		authorSlug: 'sundar-pichai'
-	},
-	{
+		stage: 'main',
+		remote: false,
 		title: 'Design Systems: Baking Consistency into your Workflow',
 		summary: 'This talk is about how to create and implement a design system, using the analogy of baking a cake. The speaker covers the key components of a design system (ingredients), how to apply it consistently in practice (baking), how to test and evaluate it (tasting), and how to publish and package it to consumers (selling). Throughout the talk, the importance of consistency and collaboration is emphasized, and practical tips are provided for creating an effective and impactful design system.',
 		body: `In this talk, you will learn about design systems and how to improve your workflow with a cake analogy.
@@ -92,6 +113,8 @@ export const events = [
 		authorSlug: 'brittney-postma'
 	},
 	{
+		stage: 'main',
+		remote: false,
 		title: 'Forces Shaping AI You Might Not Realize',
 		summary: 'Learn about many of the drivers changing the landscape of AI, from an academically trained futurist and engineering leader.',
 		body: `Learn about many of the drivers changing the landscape of AI, from an academically trained futurist and engineering leader. We all want to know what comes next, and we can learn a lot from looking across the broader world about the possibilities. I'll share details from my research into these forces, including some unexpected ones.
@@ -106,6 +129,8 @@ export const events = [
 		authorSlug: 'jeremy-wilken'
 	},
 	{
+		stage: 'main',
+		remote: false,
 		title: 'The Velocity Trap',
 		summary: 'When companies only measure how fast teams are completing tasks, they forget that those tasks need to be of value to their users, customers, and their business.',
 		body: `Companies all over the world have fallen into the Velocity Trap. This is when companies only measure how fast teams are completing tasks. They forget that those tasks need to be of value to their users, customers, and their business. In fact, research has shown that 80% of software products are rarely or never used. This talk looks at what makes organizations profitable. It uses concepts from Product Thinking and User Experience to explain how you can identify what efforts are worth investing in. It also shares which productivity metrics (also known as outputs) are proven through research to promote high performance and a few common metrics that have no such correlation. Join this talk to learn how to escape the Velocity Trap!`,
@@ -115,6 +140,8 @@ export const events = [
 		authorSlug: 'brad-nelson'
 	},
 	{
+		stage: 'main',
+		remote: false,
 		title: 'Developing with a Design Mindset',
 		summary: `As Artificial Intelligence accelerates the code-writing process, our role as developers needs to expand beyond functions and breakpoints.
 		`,
