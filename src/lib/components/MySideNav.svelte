@@ -22,11 +22,11 @@
 <section class={classesBase}>
 	<nav class="nav-list-nav">
 		<ul>
-			<li on:click={onListItemClick} on:keypress>
+			<!-- <li on:click={onListItemClick} on:keypress>
 				<a href={`/tickets`} class={classesActive('tickets')} data-sveltekit-preload-data="hover">
 					<span class="flex-auto text-3xl font-bold">Tickets</span>
 				</a>
-			</li>
+			</li> -->
 			<li on:click={onListItemClick} on:keypress>
 				<a href={`/schedule`} class={classesActive('schedule')} data-sveltekit-preload-data="hover">
 					<span class="flex-auto text-3xl font-bold">Schedule</span>

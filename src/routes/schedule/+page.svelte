@@ -11,9 +11,9 @@
 		<h1>Schedule for Google I/O Extended - Grand Rapids</h1>
 		<p class="bcu-badge variant-filled-primary">May 10th, 2023</p>
 	</div>
-	<div class="bcu-alert variant-filled-secondary text-lg">
+	<!-- <div class="bcu-alert variant-filled-secondary text-lg">
 		This agenda is not final! All times, events, and speakers may (and most likely will) change.
-	</div>
+	</div> -->
 	<div class="w-full bcu-card">
 		<header class="bcu-card-header">
 			<h2 class="text-xl lg:text-2xl xl:text-3xl">May 10th, 2023</h2>
