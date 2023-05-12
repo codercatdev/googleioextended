@@ -5,5 +5,5 @@
 
 <LayoutWrapper>
 	<h1>Ticket for Google I/O Extended - Grand Rapids</h1>
-	<TicketCard />
+	<!-- <TicketCard /> -->
 </LayoutWrapper>

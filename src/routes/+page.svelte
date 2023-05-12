@@ -10,6 +10,7 @@
 	import TicketCard from '$lib/components/TicketCard.svelte';
 	import CallForSpeakersCard from '$lib/components/CallForSpeakersCard.svelte';
 	import Speakers from '$lib/components/Speakers.svelte';
+	import Video from '$lib/components/Video.svelte';
 </script>
 
 <div class="flex m-2 md:m-8 justify-center">
@@ -39,16 +40,31 @@
 			is now open! Register today to secure your spot at Google I/O Extended 2023 in Grand Rapids. We
 			hope to see you there!
 		</section>
-		<section class="flex flex-col gap-8">
+		<!-- <section class="flex flex-col gap-8">
 			<h2>Tickets</h2>
 			<TicketCard />
-		</section>
+		</section> -->
 		<section class="flex flex-col gap-8">
-			<h2>Speakers</h2>
-			<CallForSpeakersCard />
-			<Speakers speakers={data.speakers} />
+			<h2>2023 Presentations</h2>
+
+			<Video src="https://youtu.be/saoCvgYZFMw" title="Scrum is not a silver bullet" />
+			<Video
+				src="https://youtu.be/Scov7np8miM"
+				title="Lightning Fast Webapps on the Serverless Cloud"
+			/>
+			<Video
+				src="https://youtu.be/FMArgdTb54Q"
+				title="Design Systems: Baking Consistency into your Workflow"
+			/>
+			<Video src="https://youtu.be/Ob_CDxNDcB4" title="Forces Shaping AI You Might Not Realize" />
+			<Video src="https://youtu.be/XqHh5wr3ZdM" title="The Velocity Trap" />
+			<Video src="https://youtu.be/a3_6X5q-cQA" title="Developing with a Design Mindset" />
+
+			<!-- <CallForSpeakersCard /> -->
+			<!-- <Speakers speakers={data.speakers} /> -->
 			<div class="flex flex-col gap-2 md:gap-8 items-center justify-center">
 				<a href="/schedule" class="bcu-button variant-filled-primary">{`See Full Schedule ->`}</a>
+				<a href="/speakers" class="bcu-button variant-filled-secondary">{`Speakers ->`}</a>
 				<a href="/sponsors" class="bcu-button variant-filled-tertiary">{`Become a Sponsor ->`}</a>
 			</div>
 		</section>

@@ -46,12 +46,12 @@
 	</svelte:fragment>
 	<svelte:fragment slot="bcu-app-bar-trail">
 		<div class="hidden lg:block">
-			<a
+			<!-- <a
 				href="/tickets"
 				class={`bcu-button hover:variant-soft-primary ${classesActive('tickets')}`}
 			>
 				Tickets
-			</a>
+			</a> -->
 			<a
 				href="/schedule"
 				class={`bcu-button hover:variant-soft-primary ${classesActive('schedule')}`}
